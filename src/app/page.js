@@ -18,17 +18,17 @@ export default function HomePage() {
     github: Github,
     linkedin: Linkedin,
     email: Mail,
-    facebook: Facebook,   // Added
-    youtube: Youtube,     // Added
+    //facebook: Facebook,   // Added
+    //youtube: Youtube,     // Added
   };
 
   // Define Socials (fallback to defaults if not in DB)
   const socials = data?.socials || { 
-    github: '#', 
-    linkedin: '#', 
-    facebook: '#',        // Added
-    youtube: '#',         // Added
-    email: 'mailto:hello@example.com' 
+    github: 'https://github.com/MMHossainAshik', 
+    linkedin: 'https://www.linkedin.com/in/md-mozammal-hossain-ashik/', 
+    //facebook: '#',        // Added
+    //youtube: '#',         // Added
+    email: 'mailto:mmhossainashik@gmail.com' 
   };
 
   if (loading) return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
