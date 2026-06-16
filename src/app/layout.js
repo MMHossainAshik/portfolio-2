@@ -10,8 +10,8 @@ import { ThemeProvider } from '@/context/ThemeContext'; // Import the new provid
 import { Toaster } from 'react-hot-toast';
 import './globals.css';
 
-export const metadata = { title: "Abdullah's Portfolio",
-                          description: 'Full Stack Developer & Designer Portfolio',
+export const metadata = { title: "Ashik's Portfolio",
+                          description: 'Mechanical Engineering Student',
                           icons: {
                             icon: '/favicon.ico', // <- This looks for favicon.ico in your /public or /app folder
                           },
