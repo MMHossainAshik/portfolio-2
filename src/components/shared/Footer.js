@@ -39,10 +39,10 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="md:col-span-2">
             {editMode ? (
-              <EditableText collection="settings" docId="footer" fieldPath="brandName" initialValue={data?.brandName || 'Abdullah Al Mazid'} tag="h3" className="text-2xl font-bold text-[var(--accent)]" />
+              <EditableText collection="settings" docId="footer" fieldPath="brandName" initialValue={data?.brandName || 'Md Mozammal Hossain Ashik'} tag="h3" className="text-2xl font-bold text-[var(--accent)]" />
             ) : (
               <h3 className="text-2xl font-bold text-[var(--accent)]" style={{ fontFamily: 'var(--font-heading)' }}>
-                {data?.brandName || 'Abdullah Al Mazid'}
+                {data?.brandName || 'Md Mozammal Hossain Ashik'}
               </h3>
             )}
             {editMode ? (
@@ -107,9 +107,9 @@ export default function Footer() {
           <p className="text-xs text-[var(--text-muted)] flex items-center gap-1">
             &copy; {new Date().getFullYear()}{' '}
             {editMode ? (
-              <EditableText collection="settings" docId="footer" fieldPath="copyright" initialValue={data?.copyright || 'Abdullah Al Mazid'} tag="span" />
+              <EditableText collection="settings" docId="footer" fieldPath="copyright" initialValue={data?.copyright || 'Md Mozammal Hossain Ashik'} tag="span" />
             ) : (
-              data?.copyright || 'Abdullah Al Mazid'
+              data?.copyright || 'Md Mozammal Hossain Ashik'
             )}
             . Made with <Heart className="text-red-500 w-3 h-3" /> All rights reserved.
           </p>

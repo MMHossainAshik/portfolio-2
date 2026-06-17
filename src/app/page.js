@@ -52,7 +52,7 @@ export default function HomePage() {
               
               <EditableText 
                 collection="pages" docId="home" fieldPath="heroName" 
-                value={data?.heroName || 'Abdullah Al Mazid'} tag="h1" 
+                value={data?.heroName || 'Md Mozammal Hossain Ashik'} tag="h1" 
                 className="text-5xl md:text-7xl font-bold text-[var(--text-primary)] leading-tight" 
               />
               
